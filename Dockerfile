@@ -24,3 +24,4 @@ RUN pip3 install --no-cache-dir . -f /wheels \
 WORKDIR /opt/sherlock/sherlock
 
 ENTRYPOINT ["sherlock"]
+
